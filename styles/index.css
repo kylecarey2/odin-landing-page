@@ -73,3 +73,41 @@ header a {
     justify-content: center;
     align-items: center;
 }
+
+/* Random Information */
+.random {
+    background-color: #F9FAF8;
+    padding: 48px 256px 128px;
+    text-align: center;
+}
+
+.random h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 48px;
+}
+
+.random .containers {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.random .card {
+    width: 164px;
+}
+
+.random .card .placeholder {
+    box-sizing: border-box;
+    height: 164px;
+    width: 164px;
+    border: #3882F6 solid 4px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+.random .card p {
+    color: #848588;
+    font-size: 18px;
+}
