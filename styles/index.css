@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -125,7 +127,7 @@ header a {
 
 .quote .text {
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 300;
     font-style: italic;
     margin: 0 32px;
 } 
@@ -135,4 +137,17 @@ header a {
     font-weight: 800;
     margin-left: auto;
     margin-right: 96px;
+}
+
+/* Call to Action */
+.action {
+    background-color: #F9FAF8;
+    padding: 96px 256px;
+    text-align: center;
+}
+
+.action .container {
+    box-sizing: border-box;
+    background-color: #3882F6;
+    padding: 16px 96px;
 }
