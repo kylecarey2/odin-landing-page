@@ -8,7 +8,7 @@
 /* Header */
 header {
     background-color: #1F2937;
-    padding: 16px 256px;
+    padding: 16px 224px;
     display: flex;
     align-items: center;
 }
@@ -39,7 +39,7 @@ header a {
 /* Hero */
 .hero {
     background-color: #1F2937;
-    padding: 128px 256px;
+    padding: 128px 224px;
     display: flex;
     gap: 32px;
 }
@@ -79,7 +79,7 @@ header a {
 /* Random Information */
 .random {
     background-color: #F9FAF8;
-    padding: 48px 256px 128px;
+    padding: 48px 224px 128px;
     text-align: center;
 }
 
@@ -118,7 +118,7 @@ header a {
 .quote {
     box-sizing: border-box;
     background-color: #E5E7Eb;
-    padding: 128px 256px 102px;
+    padding: 128px 224px 102px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,20 +129,20 @@ header a {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    margin: 0 64px;
+    margin: 0 96px;
 } 
 
 .quote .author {
     font-size: 18px;
     font-weight: 800;
     margin-left: auto;
-    margin-right: 96px;
+    margin-right: 128px;
 }
 
 /* Call to Action */
 .action {
     background-color: #F9FAF8;
-    padding: 96px 256px;
+    padding: 96px 224px;
     align-items: center;
 }
 
@@ -167,4 +167,17 @@ header a {
     margin-left: auto;
     margin-top: 8px;
     margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    padding: 32px 224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #E5E7Eb;
 }
