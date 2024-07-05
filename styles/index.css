@@ -129,7 +129,7 @@ header a {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    margin: 0 32px;
+    margin: 0 64px;
 } 
 
 .quote .author {
@@ -143,11 +143,28 @@ header a {
 .action {
     background-color: #F9FAF8;
     padding: 96px 256px;
-    text-align: center;
+    align-items: center;
 }
 
 .action .container {
     box-sizing: border-box;
     background-color: #3882F6;
-    padding: 16px 96px;
+    padding: 48px 96px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.action .container .content {
+    color: #F9FAF8;
+}
+
+.action .container button {
+    padding: 4px 32px;
+    border: #E5E7Eb solid 2px;
+    background-color: transparent;
+    color: #F9FAF8;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
