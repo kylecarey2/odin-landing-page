@@ -111,3 +111,28 @@ header a {
     color: #848588;
     font-size: 18px;
 }
+
+/* Quote */
+.quote {
+    box-sizing: border-box;
+    background-color: #E5E7Eb;
+    padding: 128px 256px 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0 32px;
+} 
+
+.quote .author {
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: 96px;
+}
